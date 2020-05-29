@@ -3,6 +3,7 @@
 
 Vagrant.configure("2") do |config|
   config.vm.box = "hashicorp/bionic64"
+  config.vm.provision :shell, path: "vagrant_dep_prov.sh", privileged: true
   config.vm.provision :shell, path: "vagrant_prov.sh", privileged: false
   
   # If you'd rather use a shared directory, uncomment the following 
