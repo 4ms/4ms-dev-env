@@ -1,5 +1,7 @@
 ### 4ms Dev Environment ###
 
+*This project is for old, legacy 4ms projects (circa < 2020). For newer projects, follow the building instructions in those projects' READMEs*
+
 This uses vagrant to provide a consistant development environment for compiling 4ms source code.
 
 The [SWN](https://github.com/4ms/SWN) is cloned as an example project.
